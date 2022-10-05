@@ -1,0 +1,213 @@
+Sum of indexed values
+
+Given an array of integers. Perform the sum of 2 values exist in the array, which will be indicated by 2 integers a and b.
+
+The first line contains the number of cases
+the next line contains the values of the first vector separated by spaces.
+the next line contains 2 integers separated by a space and which will be the indices of the values to be added.
+
+The next line will contain the values of the next vector separated by space and the next line to that will contain 2 integers separated by a space and which will be the indices of the values to be added and so on according to the number of case.
+
+Example:
+
+2
+7 8 20 5 8 4 55
+1 4
+3 1 4 1 5 9
+3 5
+
+
+Output:
+16
+10
+
+
+Explanation of the second case
+Vector given={3, 1, 4, 1, 1, 5, 9}
+           // 0 1 2 3 4 5 <-- indexes
+indices given 3 and 5
+Note that in the index 3 the value 1 is stored and in the index 5 the value 9.
+so the sum is equal to 10 which is the output value.
+In the first case the indices q1 and 4 store the value 8 each so the output is 16.
+
+
+***************************************************************
+
+********************************************************************
+Suma de valores indexados
+Dado un array de enteros. Realizar la suma de 2 valores existentes en el array, los cuales serán indicados por 2 interos a y b.
+
+La primera línea contienes el número de casos
+la línea siguiente contiene los valores del primer vector separados por espacios.
+la línea siguiente contiene 2 enteros separados por un espacio y que serán los indices de los valores a sumar.
+
+La siguiente línea contendra los valores del siguiente vector separados por espacio y la siguiente línea a esa contendrá 2 enteros separados por un espacio y que serán los indices de los valores a sumar y así sucesivamente según el número de caso.
+
+Ejemplo:
+
+2
+7 8 20 5 8 4 55
+1 4
+3 1 4 1 5 9
+3 5
+
+
+Salida:
+16
+10
+
+
+Explicación del segundo caso
+Vector dado={3, 1, 4, 1, 5, 9}
+                  //  0  1  2  3  4  5  <-- indices
+indices dados 3 y 5
+Observe que en el indice 3 se elmacena el valor 1 y en el indice 5 el valor 9
+por lo que la suma es igual a 10 que es el valor de la salida.
+En el primer caso los indices q1 y 4 almacenan el valor 8 cada uno por lo que la salida es 16
+
+Descripción
+Este reto le dara los datos a cargar en un vector y los indices cuyos valores almacenados  en dichas posiciones deberan ser sumados
+
+****************************************************************
+
+Sumar rango de valores indexados
+Dado un array de enteros. Realizar la suma de 2 valores existen en el array, los cuales serán indicados por 2 interos a y b.
+
+La primera línea contienes el número de casos
+la línea siguiente contiene los valores del primer vector separados por espacios.
+la línea siguiente contiene 2 enteros separados por un espacio y que serán el rango de indices de los valores a sumar.
+
+La siguiente línea contendra los valores del siguiente vector separados por espacio y la siguiente línea a esa contendrá 2 enteros separados por un espacio y que será el rango de indices de valores a sumar y así sucesivamente según el número de caso.
+
+Ejemplo:
+
+2
+7 8 20 5 8 4 55
+1 4
+3 1 4 1 5 9
+3 5
+
+
+Salida:
+41
+15
+
+Entrada
+1
+4 8 9 10 11 12 13 14 15 16 17 18 19 20
+0 1
+
+Salida
+12
+
+23 25 30 15 2
+
+Explicación del segundo caso
+Vector dado={3, 1, 4, 1, 5, 9}
+             0  1  2  3  4  5  <indices
+indices dados 3 y 5
+Se suma desde  indice 3 hasta el indice 5 inclusive, lo que da 15
+por lo que la suma es igual a 10 que es el valor de la salida.
+En el primer caso los indices del 1 y 4 los valores que almacenan suman 41
+
+Descripción
+Este reto le dara los datos a cargar en un vector y los indices del rango de valores almacenados para ser sumados
+
+///////////////////////////////////////////////////////////////
+Sum range of indexed values
+Given an array of integers. Perform the sum of 2 values exist in the array, which will be denoted by 2 integers a and b.
+
+The first line contains the number of cases
+the next line contains the values of the first vector separated by spaces.
+the next line contains 2 integers separated by a space and which will be the range of indices of the values to be added.
+
+The next line will contain the values of the next vector separated by space and the next line to that will contain 2 integers separated by a space and that will be the range of indices of values to be added and so on according to the number of case.
+
+Example:
+
+2
+7 8 20 5 8 4 55
+1 4
+3 1 4 1 5 9
+3 5
+
+
+Output:
+41
+15
+
+
+Explanation of the second case
+Given vector={3, 1, 4, 1, 1, 5, 9}
+             0 1 2 3 4 5 <indices
+given indices 3 and 5
+We add from index 3 up to and including index 5, which gives 15
+so the sum is equal to 10 which is the output value.
+In the first case the indices 1 and 4 the values they store add up to 41.
+
+Description
+This challenge will give you the data to load in a vector and the indices of the range of stored values to be summed.
+
+***********************************************************
+
+Sumar valores indexados si son primos restarlos sino
+Dado un array de enteros. Realizar la suma de 2 valores existentes en el array, siempre y cuando sean primos, los cuales serán indicados por 2 indices a y b.
+
+La primera ontiene los valores del vector separados por espacios.
+la línea siguiente contiene 2 enteros separados por un espacio y que serán 2 indices de los valores a sumar si son primos o restar si no lo son.
+la línea siguiente contiene 2 enteros separados por un espacio y que serán 2 indices de los valores a sumar si son primos o restar si no lo son.
+
+Ejemplo:
+
+
+4 8 9 10 13 12 13 14 15 16 17 18 19 20
+6 10
+4 5
+
+
+Salida:
+30
+1
+
+
+Explicación del segundo caso
+Vector dado vector[6] almacena el valor 13 que es primo, vector[10] almacena el valor 17 que es primo
+ por tanto se suman 13 y 17 y da 30
+En los indices 4 y 5, el indice 5 almacena el 12 que no es primo, por tanto se restan y da 1
+
+
+Descripción
+Este reto le dara los datos a cargar en un vector y los indices de los valores almacenados para ser sumados si son primos
+
+///////////////////////////////////////////////////////////////
+Add indexed values if they are primes subtract them if not
+Given an array of integers. Perform the sum of 2 values existing in the array, provided they are primes, which will be indicated by 2 indices a and b.
+
+The first one contains the values of the vector separated by spaces.
+the next line contains 2 integers separated by a space and which will be 2 indices of the values to be added if they are prime or subtracted if they are not.
+the next line contains 2 integers separated by a space and which will be 2 indices of the values to add if they are prime or subtract if they are not.
+
+Example:
+
+
+4 8 9 10 13 12 13 14 15 16 17 18 19 20
+6 10
+4 5
+
+
+Output:
+30
+1
+
+
+Explanation of the second case
+Vector given vector[6] stores the value 13 which is prime, vector[10] stores the value 17 which is prime
+ therefore we add 13 and 17 and it gives 30
+In the indices 4 and 5, the index 5 stores the 12 which is not prime, therefore they are subtracted and it gives 1
+
+
+Description
+This challenge will give you the data to load in a vector and the indices of the stored values to be added if they are prime.
+
+
+
