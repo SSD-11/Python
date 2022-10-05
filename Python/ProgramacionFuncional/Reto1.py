@@ -1,8 +1,8 @@
-# T = int(input())
-# for i in range(T):
-#     array = list(map(int, input().split()))
-#     a, b = map(int, input().split())
-#     print(array[a] + array[b])
+T = int(input())
+for i in range(T):
+    array = list(map(int, input().split()))
+    a, b = map(int, input().split())
+    print(array[a] + array[b])
 
 # El mismo codigo pero con programacion funcional
 
