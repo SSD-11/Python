@@ -12,10 +12,10 @@ else:
 # CORREO INSTITUCIONAL
 import re
 
-correo="samuel.sernadelgado@inemjose.edu.co"
-pattern=re.compile(r'^[a-zA-Z0-9_-]+\w[.]?[a-z0-9]+[@]\w+[.]\w{2,3}\w+[.]\w{2,3}$')
+correo = "samuel.sernadelgado@inemjose.edu.co"
+pattern = re.compile(r'^[a-zA-Z0-9_-]+\w[.]?[a-z0-9]+[@]\w+[.]\w{2,3}\w+[.]\w{2,3}$')
 result = pattern.search(correo)
 if result:
-   print("Correo Valido")
+    print("Correo Valido")
 else:
-   print("Correo Invalido")
+    print("Correo Invalido")
