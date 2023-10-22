@@ -5,6 +5,8 @@ def is_prime(n):
         if n % j == 0:
             return False
     return True
+
+
 array = list(map(int, input().split()))
 a, b = map(int, input().split())
 c, d = map(int, input().split())
@@ -21,6 +23,7 @@ else:
 
 from functools import reduce
 from operator import add, sub
+
 array = list(map(int, input().split()))
 a, b = map(int, input().split())
 c, d = map(int, input().split())

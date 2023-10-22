@@ -8,6 +8,7 @@ for i in range(T):
 
 from functools import reduce
 from operator import add
+
 T = int(input())
 for i in range(T):
     array = list(map(int, input().split()))
