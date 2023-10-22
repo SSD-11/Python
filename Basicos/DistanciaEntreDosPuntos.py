@@ -9,5 +9,3 @@ x2 = float(x2)
 y2 = float(y2)
 
 print("{:.4f}".format(((x2 - x1) ** 2 + (y2 - y1) ** 2) ** (1 / 2)))
-
-
